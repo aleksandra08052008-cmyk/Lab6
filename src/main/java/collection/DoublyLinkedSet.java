@@ -2,37 +2,23 @@ package collection;
 
 import java.util.*;
 
-/**
- * Реалізація колекції Set на основі двозв'язного списку.
- *
- * @param <T> тип елементів колекції
- */
+
 public class DoublyLinkedSet<T> implements Set<T> {
 
     private Node<T> head;
     private Node<T> tail;
     private int size;
 
-    /**
-     * Порожній конструктор.
-     */
+    
     public DoublyLinkedSet() {
     }
 
-    /**
-     * Конструктор з одним елементом.
-     *
-     * @param element елемент колекції
-     */
+    
     public DoublyLinkedSet(T element) {
         add(element);
     }
 
-    /**
-     * Конструктор зі стандартної колекції.
-     *
-     * @param collection колекція елементів
-     */
+   
     public DoublyLinkedSet(Collection<T> collection) {
         addAll(collection);
     }
