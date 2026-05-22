@@ -2,9 +2,7 @@ package collection;
 
 import java.util.List;
 
-/**
- * Виконавчий клас програми.
- */
+
 public class Main {
 
     public static void main(String[] args) {
